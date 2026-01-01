@@ -1,5 +1,5 @@
 # WPA_Sycophant_MitM
-在原始版本的基础上进行二次开发，将MSCHAPV2的Success消息解析并保存到状态文件，以供hostapd-mana读取和转发，同时支持导出MASTER_KEY文件
+在原始版本的基础上进行二次开发，将MSCHAPV2中peer_challenge的Response消息解析并保存到状态文件，以供hostapd-mana读取和转发，同时支持导出MASTER_KEY文件
 请注意cleanup会清除所有状态文件以维持最新，包括MASTER_KEY文件，请在退出前保存
 
 同时提供MitM网络桥接的脚本：mitm_bridge.sh (请查看脚本内容后审慎使用)
