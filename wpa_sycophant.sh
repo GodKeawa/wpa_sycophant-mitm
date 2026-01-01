@@ -36,6 +36,11 @@ clean_up(){
     rm /tmp/RESPONSE
     rm /tmp/RESPONSE_LOCK 
     rm /tmp/SYCOPHANT_STATE
+    rm /tmp/MASTER_KEY
+    rm /tmp/MASTER_KEY.txt
+    rm /tmp/REAL_AUTH_RESPONSE
+    rm /tmp/REAL_AUTH_RESPONSE.txt
+    rm /tmp/SYCOPHANT_INTERFACE
     return
 }
 
